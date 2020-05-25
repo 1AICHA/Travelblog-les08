@@ -11,7 +11,13 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Source Serif Pro', serif;
+	/*font-family: 'Source Serif Pro', serif;*/
+	font-family: 'Source serif Pro';
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 1.7rem;
 }
 
 a {
@@ -23,7 +29,7 @@ a {
 /*TOPBAR*/
 
 #topbar {
-	background-color: #b9c1c1b3;
+	background-color: #eaeaea;
 }
 
 #topbar div {
@@ -40,12 +46,17 @@ a {
 }
 
 .wrapper ul {
-	display: inline-flex;
+	display: flex;
+    padding: 1rem 0rem;
 }
 
 #topbar ul li {
 	padding: 0 0.5rem;
 	list-style-type: none;
+}
+
+nav {
+	font-weight: bold;
 }
 
 /* HEADER */
@@ -101,7 +112,12 @@ h1 a {
 
 
 #banner p, #banner h2, #banner a {
-	padding: 1.2rem 0;
+	padding: 1.6rem 0;
+}
+
+#banner h2 {
+	font-family: 'Open Sans';
+	font-weight: 400;
 }
 
 
@@ -112,6 +128,7 @@ h1 a {
 	color: white;
 	border-style: solid;
 	border-width: medium;
+	width: 12%;
 }
 
 #banner .wrapper a:hover {
@@ -122,6 +139,10 @@ h1 a {
 	text-transform: uppercase;
 }
 
+
+.wrapper p {
+	font-size: 0.8rem;
+}
 
 /* MAIN */
 main {
@@ -142,7 +163,7 @@ main .wrapper {
 }
 
 .main_left article {
-	background-color: #b9c1c1b3;
+	background-color:#eaeaea;
 	margin: 0rem 0rem 4rem 0rem;
 	padding-bottom: 1rem;
 	text-align: center;
@@ -187,11 +208,11 @@ article div a {
 	float: right;
 	overflow: hidden;
 	text-transform: uppercase;
-	padding: 0.5rem 0.5rem;
+	padding: 0.6rem 0.6rem;
 	border-color: black;
 	border-style: solid;
-	border-width: medium;
 	margin-right: 1rem;
+	border-width: 0.1rem;
 }
 
 article div a:hover {
@@ -211,7 +232,7 @@ article img {
 }
 
 .main_right h3 {
-	padding: 1rem 0;
+	padding: 2rem 0;
 
 }
 
@@ -241,6 +262,8 @@ footer {
 footer div {
 	display: flex;
 	justify-content: space-between;
+	font-size: 0.8rem;
+    margin: 1rem;
 }
 
 
