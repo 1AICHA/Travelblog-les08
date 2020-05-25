@@ -42,12 +42,12 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding-bottom: 0.5rem;
+.
 }
 
 .wrapper ul {
 	display: flex;
-    padding: 1rem 0rem;
+    padding: 0.5rem 0rem;
 }
 
 #topbar ul li {
@@ -58,6 +58,17 @@ a {
 nav {
 	font-weight: bold;
 }
+
+label {
+	display: none;
+}
+
+#search {
+	padding: 0.4rem 2rem 0.4rem 0.5rem;
+	font-size:  1rem;
+	width: 110%;
+}
+
 
 /* HEADER */
 
